@@ -1,0 +1,18 @@
+<div class="parallax-container">
+    <app-sidenav></app-sidenav>
+    <div class="parallax">
+      <img src="../../../assets/office.jpeg">
+    </div>
+   
+</div>
+<nav id="navbar">
+<div class="nav-wrapper">
+    <a href="#" class="brand-logo center">
+      <img class="responsive-img" src="../../../assets/m.png">
+    </a>
+    <ul class="right">
+      <li *ngFor="let nav of navigation"><a routerLink="{{nav.link}}">{{nav.title}}</a></li>
+     
+    </ul>
+  </div>
+</nav>

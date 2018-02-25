@@ -1,0 +1,23 @@
+@import "../../style/_variables.scss";
+
+
+
+nav{
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.responsive-img{
+    width: 100px;
+    // height: 30px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+

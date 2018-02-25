@@ -7,7 +7,9 @@ declare var $:any;
 })
 export class SidenavComponent implements OnInit {
   
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
     $(document).ready(function(){

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-declare var $:any;
 
 
 
@@ -10,29 +9,20 @@ declare var $:any;
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  cards = [];
+  constructor() { 
+  
+  }
 
   ngOnInit() {
-    $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-    
-  //for stick navbar
-  window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-       
-        
+    this.cards = [
+      {title:"Clean & Simple",body:"A clean interface is the key to a good looking product.I always like to keep things clean and simple",icon:"fas fa-shower"},
+      {title:"Pixel Perfect",body:"Every pixel,icon or piece of interface on this awesome premium templates is manualy and carefully crafted to perfection",icon:"fas fa-puzzle-piece"},
+      {title:"Multiple Options",body:"The theme comes with a variety of colors,styles and layouts,so it can be a match for any business",icon:"fas fa-folder-open"},
+      {title:"Retina Ready",body:"The themes are designed and developed to look absolutely amazing on any retina resolution",icon:"fas fa-eye"},
+      {title:"Responsive",body:"Your clients will be able to have a unique,awesome and smart experience on every mobile device out there",icon:"fas fa-mobile"},
+      {title:"24/7 Support",body:"If you need any support and you are interested in any of the templates everything its free to use",icon:"fab fa-angellist"}
+    ]
   }
 
 }
