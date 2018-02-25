@@ -16,9 +16,7 @@
 	perspective: 1000px;
 }
 
-.tilter * {
-	pointer-events: none;
-}
+
 
 .tilter:hover,
 .tilter:focus {
@@ -41,31 +39,12 @@
 	display: block;
 }
 
-.tilter__figure > * {
-	transform: translateZ(0px); /* Force correct stacking order */
-}
 
-.smooth .tilter__figure,
-.smooth .tilter__deco--overlay,
-.smooth .tilter__deco--lines,
-.smooth .tilter__deco--shine div,
-.smooth .tilter__caption {
-	transition: transform 0.2s ease-out;
-}
 
 .tilter__figure {
 	position: relative;
 }
 
-.tilter__figure::before {
-	content: '';
-	position: absolute;
-	width: 90%;
-	height: 90%;
-	top: 5%;
-	left: 5%;
-	box-shadow: 0 30px 20px rgba(35,32,39,0.5);
-}
 
 .tilter__deco {
 	position: absolute;

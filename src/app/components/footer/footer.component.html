@@ -1,3 +1,38 @@
-<p>
-  footer works!
-</p>
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">My set skils</h5>
+          <p class="grey-text text-lighten-4">
+              Web Developer  with 1 year of
+               experience in designing and developing user interfaces,
+                debugging, experience working with Sass Vue.Js React.Js 
+                Angular4+ JavaScript jQuery Bootstrap Materialize.
+             </p>
+          </div>
+        <div class="col l6  s12">
+
+          <div class="icons-skill">
+            <a class="grey-text text-lighten-3" *ngFor="let i of icons"><i [style.margin]="i.margin" [class]="i.icon"></i></a>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2018 VranceanuM
+      <a class="grey-text text-lighten-4 right" href="#!">
+        
+                <div class="icons">
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-behance-square"></i>
+                    <i class="fab fa-pinterest-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                </div>
+      </a>
+      </div>
+    </div>
+  </footer>
+      
