@@ -1,0 +1,24 @@
+@import "../../style/_variables.scss";
+
+#sidebar-btn{
+    z-index: 1;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    position: fixed;
+    margin: 20px 30px;
+    span{
+        display: block;
+        height: 2px;
+        background: whitesmoke;
+        margin-bottom: 5px;
+    }
+    span:nth-child(2){
+        width: 75%;
+    }
+    span:nth-child(3){
+        width: 60%;
+    }
+}
