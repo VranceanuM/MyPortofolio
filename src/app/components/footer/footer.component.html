@@ -2,12 +2,9 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">My set skils</h5>
+          <h5 class="white-text">{{title}}</h5>
           <p class="grey-text text-lighten-4">
-              Web Developer  with 1 year of
-               experience in designing and developing user interfaces,
-                debugging, experience working with Sass Vue.Js React.Js 
-                Angular4+ JavaScript jQuery Bootstrap Materialize.
+              {{description}}
              </p>
           </div>
         <div class="col l6  s12">
@@ -25,11 +22,7 @@
       <a class="grey-text text-lighten-4 right" href="#!">
         
                 <div class="icons">
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-behance-square"></i>
-                    <i class="fab fa-pinterest-square"></i>
-                    <i class="fab fa-google-plus-square"></i>
+                    <i *ngFor="let ico of social"[class]="ico.icon" [style.font-size]="ico.font"  [style.margin]="ico.margin"></i>
                 </div>
       </a>
       </div>

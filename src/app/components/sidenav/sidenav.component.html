@@ -1,7 +1,27 @@
 <ul id="slide-out" class="sidenav">
-    <li><a href="#!">First Sidebar Link</a></li>
-    <li><a href="#!">Second Sidebar Link</a></li>
-  </ul>
+    <a class="sidenav-close right" id="closeBtn"><i class="material-icons">clear</i></a>
+<div class="container">
+  <div class="row">
+      <div class="center-align logoBackground">
+       <img src="../../../assets/m.png ">
+       <div class="icons">
+          <a  *ngFor="let i of icons"><i [style.font-size]="i.font"  [style.margin]="i.margin" [class]="i.icon"></i></a>
+       </div>
+      </div>
+  </div>
+  <div class="row" 
+  style="position:  relative;
+  top: 300px;
+  background-color: white;">
+      <div class="col s12">
+            <ul class="center">
+                    <li *ngFor="let nav of navigation">
+                    <a routerLink={{nav.link}}>{{nav.title}}</a></li>
+           </ul>
+      </div>
+  </div>
+</div>
+</ul>
   <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
     <div id="sidebar-btn">
       <span></span>

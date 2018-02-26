@@ -23,3 +23,43 @@
         width: 60%;
     }
 }
+
+#closeBtn:hover{
+    cursor: pointer;
+   }
+   #closeBtn{
+       position: fixed;
+       right: 5px;
+       top: 10px;
+   }
+   .logo{
+       position: relative;
+       top: 50px;
+   }
+   #img-circle{
+       width: 200px;
+       height: 150px;
+   }
+   .logoBackground img{
+       position: fixed;
+       top: 30px;
+       left: 23px;
+       width: 250px;
+       height: 250px;
+   
+   }
+   .icons{
+       position: relative;
+       top: 300px
+   
+   } 
+   .icons a:hover{
+       cursor: pointer;
+   }
+   .sidenav li > a{
+       color: $green;
+   &:hover{
+       background: $green;
+       color: white;
+   }
+   }

@@ -14,8 +14,8 @@ export class JumbotronComponent implements OnInit {
 
   ngOnInit() {
     this.navigation = [
-      {link:"/page1",title:"page one"},
-      {link:"/page2",title:"page two"}
+      {link:"/page1",title:"Bootstrap"},
+      {link:"/page2",title:"Materialize"}
     ]
     $(document).ready(function(){
       $('.parallax').parallax();
