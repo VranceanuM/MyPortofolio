@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page1.component.scss']
 })
 export class Page1Component implements OnInit {
-
+title = "This is a bootstrap template";
+cards = [];
   constructor() { }
 
   ngOnInit() {
+ this.cards = [
+   {img:"../../../assets/spacex.png",link:"http://spacex.ultimatefreehost.in/?i=2"},
+   {img:"../../../assets/hard.png",link:"http://hardware.ultimatefreehost.in/?i=1"},
+   {img:"../../../assets/luxe.png",link:"http://luxor.ultimatefreehost.in/?i=1"}
+ ]
   }
 
 }
