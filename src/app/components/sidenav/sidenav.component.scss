@@ -1,5 +1,6 @@
 @import "../../style/_variables.scss";
 
+
 #sidebar-btn{
     z-index: 1;
     display: inline-block;
@@ -13,7 +14,7 @@
     span{
         display: block;
         height: 2px;
-        background: whitesmoke;
+        background: white;
         margin-bottom: 5px;
     }
     span:nth-child(2){

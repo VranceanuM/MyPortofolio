@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 
-
+declare var $:any;
 
 @Component({
   selector: 'app-home',
@@ -23,6 +23,12 @@ export class HomeComponent implements OnInit {
       {title:"Responsive",body:"Your clients will be able to have a unique,awesome and smart experience on every mobile device out there",icon:"fas fa-mobile"},
       {title:"24/7 Support",body:"If you need any support and you are interested in any of the templates everything its free to use",icon:"fab fa-angellist"}
     ]
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        
+   
+        
   }
 
 }
