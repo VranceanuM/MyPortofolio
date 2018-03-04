@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page1.component.scss']
 })
 export class Page1Component implements OnInit {
-title = "This is a bootstrap template";
+title = "This is a responsive bootstrap template";
 cards = [];
   constructor() { }
 

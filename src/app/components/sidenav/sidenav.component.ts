@@ -16,14 +16,13 @@ export class SidenavComponent implements OnInit {
      this.navigation = [
        {title:"Bootstrap" , link:"/page1"},
        {title:"Materialize",link:"/page2"},
-       {title:"Demo Template", link:"/page3"}
+       {title:"Home", link:"/"}
      ],
      this.icons = [
-      {icon:"fab fa-github", margin:"5px",font:"1.6rem"},
-      {icon:"fab fa-behance-square" ,margin:"5px",font:"1.6rem"},
-      {icon:"fab fa-pinterest-square",margin:"5px",font:"1.6rem"},
-      {icon:"fab fa-twitter-square",margin:"5px",font:"1.6rem"},
-      {icon:"fab fa-google-plus-square",margin:"5px",font:"1.6rem"}
+      {icon:"fab fa-github", margin:"5px",font:"1.6rem", link:"https://github.com/VranceanuM/"},
+      {icon:"fab fa-twitter-square",margin:"5px",font:"1.6rem",link:"https://twitter.com/Vmark26/"},
+      {icon:"fab fa-google-plus-square",margin:"5px",font:"1.6rem",link:"https://www.google.com/"},
+      {icon:"fab fa-facebook", margin:"5px",font:"1.6rem",link:"https://www.facebook.com/vranceanu.madalin"}
      ]
 
      

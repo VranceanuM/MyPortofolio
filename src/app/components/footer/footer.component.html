@@ -22,7 +22,7 @@
       <a class="grey-text text-lighten-4 right" href="#!">
         
                 <div class="icons">
-                    <i *ngFor="let ico of social"[class]="ico.icon" [style.font-size]="ico.font"  [style.margin]="ico.margin"></i>
+                  <a *ngFor="let ico of social" [href]="ico.link" target="_blank" class="grey-text text-lighten-3"> <i [class]="ico.icon" [style.font-size]="ico.font"  [style.margin]="ico.margin"></i></a>
                 </div>
       </a>
       </div>
