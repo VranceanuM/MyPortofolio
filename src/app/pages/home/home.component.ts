@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.cards = [
       {title:"Clean & Simple",body:"A clean interface is the key to a good looking product.I always like to keep things clean and simple",icon:"fas fa-shower"},
-      {title:"Pixel Perfect",body:"Every pixel,icon or piece of interface on this awesome premium templates is manualy and carefully crafted to perfection",icon:"fas fa-puzzle-piece"},
+      {title:"Pixel Perfect",body:"Every pixel,icon or piece of interface on this awesome premium templates is manualy and carefully crafted .",icon:"fas fa-puzzle-piece"},
       {title:"Multiple Options",body:"The theme comes with a variety of colors,styles and layouts,so it can be a match for any business",icon:"fas fa-folder-open"},
       {title:"Retina Ready",body:"The themes are designed and developed to look absolutely amazing on any retina resolution",icon:"fas fa-eye"},
       {title:"Responsive",body:"Your clients will be able to have a unique,awesome and smart experience on every mobile device out there",icon:"fas fa-mobile"},

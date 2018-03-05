@@ -1,7 +1,10 @@
 @import "../../style/_variables.scss";
+*{
+    box-sizing: border-box;
+}
 .container{
 	margin-top:80px;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 .icons{
 	font-size: 1.9rem;
