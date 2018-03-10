@@ -17,7 +17,9 @@ cards = [];
    {img:"../../../assets/luxe.png",link:"http://luxor.ultimatefreehost.in/?i=1"},
    {img:"../../../assets/portofolio.png",link:"http://profilemark.ultimatefreehost.in/?i=2"},
    {img:"../../../assets/idea.png",link:"http://ideaslab.ultimatefreehost.in/?i=1"},
-   {img:"../../../assets/dasha1.png",link:"http://templates.ultimatefreehost.in/"}
+   {img:"../../../assets/dasha1.png",link:"http://templates.ultimatefreehost.in/"},
+   {img:"../../../assets/particle.png",link:"http://particle.ultimatefreehost.in/"}
+
  ]
   }
 
