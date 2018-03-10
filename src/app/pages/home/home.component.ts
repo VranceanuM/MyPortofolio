@@ -10,6 +10,7 @@ declare var $:any;
 })
 export class HomeComponent implements OnInit {
   cards = [];
+  carousel = [];
   constructor() { 
   
   }
@@ -22,6 +23,11 @@ export class HomeComponent implements OnInit {
       {title:"Retina Ready",body:"The themes are designed and developed to look absolutely amazing on any retina resolution",icon:"fas fa-eye"},
       {title:"Responsive",body:"Your clients will be able to have a unique,awesome and smart experience on every mobile device out there",icon:"fas fa-mobile"},
       {title:"24/7 Support",body:"If you need any support and you are interested in any of the templates everything its free to use",icon:"fab fa-angellist"}
+    ]
+    this.carousel = [
+      {link:"http://random.ultimatefreehost.in/?i=1",img:"../../../assets/number.png"},
+      {link:"http://chucknoris.ultimatefreehost.in/?i=1",img:"../../../assets/chuk.png"},
+      {link:"http://convertor.ultimatefreehost.in/?i=1",img:"../../../assets/convert.png"}
     ]
     $(document).ready(function(){
       $('.carousel').carousel();

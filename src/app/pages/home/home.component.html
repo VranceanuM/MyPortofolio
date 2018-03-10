@@ -9,7 +9,7 @@
         <hr>
     </div>
     <div class="row">
-            <div class="col lg4 s6" *ngFor="let card of cards">
+            <div class="col l6 s12" *ngFor="let card of cards">
         
                               <div class="card-panel teal">
                                     <div class="card-content white-text center-align">
@@ -51,13 +51,12 @@
     </div>
 </section>
 <section class="section" id="projectsJS">
-       
+       <h3 class="center">Build With JavaScript</h3>
   <div class="carousel center">
-            <a class="carousel-item" href="#one!"><img src="../../../assets/hero.png"></a>
-            <a class="carousel-item" href="#two!"><img src="../../../assets/idea.png"></a>
-            <a class="carousel-item" href="#three!"><img src="../../../assets/hard.png"></a>
-            <a class="carousel-item" href="#four!"><img src="../../../assets/data.png"></a>
-            <a class="carousel-item" href="#five!"><img src="../../../assets/dasha1.png"></a>
+            <a *ngFor="let car of carousel" class="carousel-item" [href]="car.link" target="_blank"><img style="
+                width: 400px;
+            " [src]="car.img"></a>
+           
           </div>
 
 </section>
